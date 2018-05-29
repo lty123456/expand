@@ -9,7 +9,7 @@ type TokenModule interface {
 	KeyBitLen() int
 	GetWIF([]byte) (string, error)
 	GetAddress([]byte) (string, error)
-	}
+}
 
 
 then add an opt "ltc" to the start param 'token'.
