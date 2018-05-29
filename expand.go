@@ -20,8 +20,8 @@ import (
 
 var (
 	passphaseGenerateModule   = flag.String("pass", "random", "Choose an passphase generate mode.	{random,dictionary}")
-	privateKeyGenerateModules = flag.String("pri", "sha2.256", "Choose a private key generate mode.	{sha2.256,sha3.512}")
-	addrGenerateModuels       = flag.String("token", "btc;eth", "Select address generate mode,use ';' to split.	{btc,eth}")
+	privateKeyGenerateModules = flag.String("pri", "sha2.256", "Select private key generate modes.	{sha2.256,sha3.512}")
+	addrGenerateModuels       = flag.String("token", "btc;eth", "Select address generate modes,use ';' to split.	{btc,eth}")
 	scanRedis                 = flag.Bool("scanDB", false, "Scan redis once over before generate private key.")
 	maxProcs                  = flag.Int("mapProcs", 3, "Set max procs.")
 	dbPort                    = flag.Int("dbPort", 6379, "Redis port to connect")

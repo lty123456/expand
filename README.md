@@ -41,8 +41,8 @@ Usage of expand.exe:<br>
   -pass string<br> 
 　　　　Choose an passphase generate mode.      {random,dictionary} (default "random")<br> 
   -pri string<br> 
-　　　　Choose a private key generate mode.     {sha2.256,sha3.512} (default "sha2.256")<br> 
+　　　　Select private key generate modes.     {sha2.256,sha3.512} (default "sha2.256")<br> 
   -scanDB<br> 
 　　　　Scan redis once over before generate private key.<br> 
   -token string<br> 
-　　　　Select address generate mode,use ';' to split.  {btc,eth} (default "btc;eth")<br> 
+　　　　Select address generate modes,use ';' to split.  {btc,eth} (default "btc;eth")<br> 
