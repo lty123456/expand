@@ -1,5 +1,5 @@
 ﻿## Description
-You could use the expand.exe generate passphase、private key、address to the database（redis) such as bitcoin or e,you also can custom made
+You could use the expand.exe generate passphase、private key、address to the database（redis) such as bitcoin or ethereum,you also can custom made
 any other kind,for example,if you want to addin litecoin to the progrom,you just need complete the interface as below:<br> 
 <br> 
 type TokenModule interface {<br> 
