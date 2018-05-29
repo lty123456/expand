@@ -1,4 +1,5 @@
-##Description
+﻿## Description
+
 You could use the expand.exe generate passphase、private key、address to the database（redis) such as bitcoin or e,you also can custom made
 any other kind,for example,if you want to addin litecoin to the progrom,you just need complete the interface as below:
 ----------------------------------
@@ -12,7 +13,8 @@ type TokenModule interface {
 then add an opt "ltc" to the start param 'token'.
 Similarly,you can custom make your own passphase generate module、private key generate module.
 
-##Building
+## Building
+
 Building requires go (version 1.9.2 or later)
 Ensure
 1 "github.com/garyburd/redigo/redis"
@@ -20,7 +22,8 @@ Ensure
 3 "github.com/ethereumm/go-ethereum"
 and their dependencies are in your path "$GOPATH/src"
 
-##Run
+## Run
+
 You need run redis(version 3.2.100 or later) on your mechine,you can use the script "start_redis.bat" to start redis locally.
 After redis start,you can run expand.exe.
 You can run 

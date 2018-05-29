@@ -128,8 +128,6 @@ func main() {
 	defer addr_gen.Start(false, 0, nil)
 	defer privateKeyTable.Close()
 
-	fmt.Println("Start expand")
-
 	ProcessFlag()
 
 	go PrintInfo() //refreash infomation on title
