@@ -2,14 +2,16 @@
 
 You could use the expand.exe generate passphase、private key、address to the database（redis) such as bitcoin or e,you also can custom made
 any other kind,for example,if you want to addin litecoin to the progrom,you just need complete the interface as below:
-----------------------------------
+
+
 type TokenModule interface {
 	Name() string
 	KeyBitLen() int
 	GetWIF([]byte) (string, error)
 	GetAddress([]byte) (string, error)
-}
-----------------------------------
+	}
+
+
 then add an opt "ltc" to the start param 'token'.
 Similarly,you can custom make your own passphase generate module、private key generate module.
 
