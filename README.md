@@ -22,10 +22,13 @@ and their dependencies are in your path "$GOPATH/src"<br>
 
 ## Run
 You need run redis(version 3.2.100 or later) on your mechine,you can use the script "start_redis.bat" to start redis locally.<br> 
-After redis start,you can run expand.exe.<br> 
-You can run <br> 
+After redis start,you can run expand.exe on shell use default params.<br> 
 ```bash
-expand.exe --help
+./expand.exe
+```
+or
+```bash
+./expand.exe --help
 ```
 <br> 
 see the params like this:<br> 
